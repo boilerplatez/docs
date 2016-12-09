@@ -1,0 +1,23 @@
+{
+    "name": "rudrax/docs",
+    "type": "library",
+    "description": "Docs for Rudrax",
+    "keywords": ["rudra", "API", "smarty"],
+    "license": "MIT",
+    "homepage": "http://api.spamjs.org",
+    "authors": [
+        {
+            "name": "Lalit Tanwar",
+            "email": "lalit.tanwar07@gmail.com",
+            "homepage": "http://lalittanwar.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": ""
+        }
+    },
+    "require": {
+        "rudrax/boot": "1.*"
+    }
+}
