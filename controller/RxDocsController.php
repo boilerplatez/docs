@@ -11,14 +11,14 @@ namespace app\controller {
         /**
          * @Description - Welcome page
          *
-         * @RequestMapping(url="rudraks/docs/blob/master/{file}",method="GET", cache="file")
+         * @RequestMapping(url="boilerplatez/docs/blob/master/{file}",method="GET", cache="file")
          * @RequestParams(true)
          */
         public function welcome($file=null)
         {
 
             $file = str_replace("/rudraks/docs/blob/master","",Webapp::$REQUEST_PATHNAME);
-            $mdtext = file_get_contents(LIB_PATH."rudrax/docs/markdown/".$file);
+            $mdtext = file_get_contents(LIB_PATH."rudrax/docs/".$file);
             echo MarkdownExtra::defaultTransform($mdtext);
 
         }
