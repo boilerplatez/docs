@@ -5,4 +5,4 @@
 - [XAMPP-MAC](xampp/MAC.md)
 
 ## PHP
-- [rudraxPHP](php/composer/INDEX.md)
+- [rudraxPHP](/boilerplatez/docs/blob/master/php/INDEX.md)
