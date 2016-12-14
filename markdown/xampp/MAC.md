@@ -3,12 +3,11 @@
 ##MAC
 -  Download and install XAMPP from [apachefriends](https://www.apachefriends.org/download.html#849)
 
--  Run following command to open apache config fil
-e
+-  Run following command to open apache config file
     ````
     $ sudo nano /Applications/XAMPP/etc/httpd.conf
     ````
-    1. **Set projects directory** - find these lines and change path to directory where you wan to keep all your apache projects
+    1. **Set projects directory** - find these lines and change path to directory where you want to keep all your apache projects
         ````conf
         DocumentRoot "/Users/lucas/Projects"
         <Directory "/Users/lucas/Projects">
@@ -42,9 +41,9 @@ e
 
 - **Local DNS mapping**
     
-    Your system sholud know, not to go online to search for domains you want to use for your projects.
+    Your system should know, these are local domains we are working on. So we neeed to specify it in hosts file.
     
-    1. Open hosts file
+    1. Use following command to open hosts file
     
         ````
           $ sudo nano /etc/hosts
