@@ -3,7 +3,8 @@
 ##MAC
 -  Download and install XAMPP from [apachefriends](https://www.apachefriends.org/download.html#849)
 
--  Open apache config file
+-  Run following command to open apache config fil
+e
     ````
     $ sudo nano /Applications/XAMPP/etc/httpd.conf
     ````
@@ -13,13 +14,13 @@
         <Directory "/Users/lucas/Projects">
         ````
     
-    2. Enable **virtual hosting** - so that you can have different domains for different projetcs
+    2. Enable **virtual hosting** - so that you can have different domains for different projects
         ````
         # Virtual hosts
         Include etc/extra/httpd-vhosts.conf
         ````
   
-- Open apache virtual hosts config
+- Now run following command to open apache virtual hosts config
 
     1. Open config file
         ````
