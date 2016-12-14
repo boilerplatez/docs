@@ -20,9 +20,9 @@ e
         Include etc/extra/httpd-vhosts.conf
         ````
   
-- Now run following command to open apache virtual hosts config
+- As we are going to work on multiple projects, we will need different local domains for different projects
+    1. Now run following command to open apache virtual hosts config
 
-    1. Open config file
         ````
         $ sudo nano /Applications/XAMPP/etc/extra/httpd-vhosts.conf
         ````
@@ -41,6 +41,9 @@ e
         ````
 
 - **Local DNS mapping**
+    
+    Your system sholud know, not to go online to search for domains you want to use for your projects.
+    
     1. Open hosts file
         ````
           $ sudo nano /etc/hosts
