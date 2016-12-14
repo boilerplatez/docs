@@ -45,9 +45,11 @@ e
     Your system sholud know, not to go online to search for domains you want to use for your projects.
     
     1. Open hosts file
+    
         ````
           $ sudo nano /etc/hosts
         ````
+        
     2. Add domain poinitng to local
         ````
          127.0.0.1       local.piggy.com
