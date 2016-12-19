@@ -1,24 +1,30 @@
 # Using Meld merging tool on Mac
 
-1. Install [XQuartz](http://xquartz.macosforge.org/landing/)
+1. [OPTIONAL] Install [XQuartz](http://xquartz.macosforge.org/landing/) 
 
 2. Install meld with brew
 
         brew install meld
-
+        OR 
+        brew install homebrew/gui/meld
+        
 3. Copy PYTHONPATH
 
         brew info pygtk
+
+4. If you dont seen anything try installing 
+
+        brew install pygtk
     
-4. Paste result of (3) in ~/.bashrc or ~/.zshrc
+5. Paste result of (3) in ~/.bashrc or ~/.zshrc
 
         export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
-5. Set meld as your default git mergetool
+6. Set meld as your default git mergetool
 
         git config --global merge.tool meld
     
-6. Go find your conflicts!
+7. Go find your conflicts!
 
 Source: [https://github.com/mxcl/homebrew/issues/20644](https://github.com/mxcl/homebrew/issues/20644)
 
