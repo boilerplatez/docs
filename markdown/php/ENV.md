@@ -1,6 +1,6 @@
 # BASIC SYSTEM SETUP
 
-##MAC
+## MAC
 
 - Install *homebrew* and fix *git*
 ````
