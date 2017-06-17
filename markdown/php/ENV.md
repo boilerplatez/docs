@@ -1,4 +1,4 @@
-# BASIC SYSTEM SETUP
+# BASIC SYSTEM SETUP for PHP/Composer
 
 ## MAC
 
@@ -14,29 +14,8 @@ $ curl -s https://getcomposer.org/installer | php
 $ sudo mv composer.phar /usr/local/bin/composer
 ````
 
-#### Optional Setups
+#### Optional
+ - [Setup for UI Development](../node/ENV.md)
+
+
  
-- Install NPM - Required only if you want to use bower.json or its javascript project
-````
-brew install node.js
-````
-
-- Install bower
-
-```
-$ sudo npm install -g bower
-```
-
-- Install GRUNT
-
-```
-$ sudo npm install -g grunt-cli
-```
-
-- Install compass,ttfautohint,fontforge
-
-```
-$ brew install ttfautohint fontforge --with-python
-$ sudo gem install compass
-```
-
