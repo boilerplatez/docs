@@ -8,6 +8,7 @@ $ npm init
 - Install Bootloader Peer Dependencies
 
 ```
+$ npm install bower --save
 $ npm install grunt --save
 $ npm install grunt-contrib-jshint --save
 $ npm install grunt-contrib-clean  --save
@@ -17,7 +18,8 @@ $ npm install grunt-contrib-cssmin --save
 $ npm install grunt-contrib-nodeunit --save
 $ npm install grunt-contrib-uglify --save
 $ npm install grunt-contrib-watch --save
-$ npm install gitinfo --save
+$ npm install grunt-sass --save
+$ npm install grunt-gitinfo --save
 $ npm install grunt-bootloader --save
 
 ```
@@ -25,7 +27,7 @@ $ npm install grunt-bootloader --save
 - Initialize bootloader project
 
 ```
-$ bootloader create --name=myapp
+$ bootloader init --name=myapp
 ```
 
 - Load bower dependencies
