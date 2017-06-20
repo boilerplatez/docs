@@ -10,4 +10,4 @@
 
 ## Node
 - [NODE](node/ENV.md)
-- [NODE](node/bootloader.md)
+- [bootloader](node/bootloader.md)
