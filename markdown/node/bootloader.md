@@ -1,11 +1,11 @@
-# BASIC SYSTEM SETUP for NPM/Grunt/bower
+# BASIC SYSTEM SETUP for NPM+Grunt+bower+bootloader
 
-- Setup NPM Project
+#### Setup NPM Project
 ````
 $ npm init
 ````
 
-- Install Bootloader Peer Dependencies
+#### Install Bootloader Peer Dependencies
 
 ```
 $ npm install bower --save
@@ -17,21 +17,24 @@ $ npm install grunt-contrib-connect --save
 $ npm install grunt-contrib-cssmin --save
 $ npm install grunt-contrib-nodeunit --save
 $ npm install grunt-contrib-uglify --save
-$ npm install grunt-contrib-watch --save
+$ npm install grunt-contrib-uglify --save
+$ npm install grunt-jsbeautifier --save
 $ npm install grunt-sass --save
 $ npm install grunt-gitinfo --save
 $ npm install grunt-bootloader --save
 
 ```
 
-- Initialize bootloader project
+#### Initialize/setup/configure bootloader project in an instant
 
 ```
-$ bootloader init --name=myapp
+$ bootloader create --name=myapp --port=8080
 ```
 
-- Load bower dependencies
+#### Load bower dependencies
 
 ```
 $ bower install 
 ```
+
+Read full **bootloader** documentation [here](/nodeutilz/grunt-bootloader/master/README.md)
