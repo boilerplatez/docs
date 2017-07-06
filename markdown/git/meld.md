@@ -50,6 +50,12 @@ Instead try:
 
     $ brew install homebrew/x11/meld
     
+Or you can try something like this [Answer](https://stackoverflow.com/a/43503455)
+
+   $ brew tap caskroom/cask
+   $ brew cask install meld
+    
+    
 ### Alternative method (by [@yousseb](https://github.com/yousseb))
 
 If you want to install Meld with no hassle go to: https://yousseb.github.io/meld/
