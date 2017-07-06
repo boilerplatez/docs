@@ -14,7 +14,7 @@ $ curl -s https://getcomposer.org/installer | php
 $ sudo mv composer.phar /usr/local/bin/composer
 ````
 #### Suggestions
- - [Setup RudraX php](rudrax.md)
+ - [Setup RudraX/BootPHP](rudrax.md)
 
 #### Optional
  - [Setup for UI Development](../node/ENV.md)
