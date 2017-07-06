@@ -1,9 +1,9 @@
-# RudraX
+# BootPHP
 
 
 ## Pre-requisite
 - XAMPP [instructions](../xampp/ENV.md)
-- PHP/Copmoser [instructions](https://github.com/rudraks/boot/blob/master/README.md)
+- PHP/Copmoser [instructions](https://github.com/boilerplatez/docs/blob/master/markdown/php/ENV.md)
 ## Setup
 
 ```bash
