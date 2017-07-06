@@ -7,7 +7,7 @@
 ## Setup
 
 ```bash
-$ composer create-project rudrax/project my_project
+$ composer create-project bootphp/project my_project
 $ cd my_project
 $ composer update
 ```
