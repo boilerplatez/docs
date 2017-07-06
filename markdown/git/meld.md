@@ -1,6 +1,13 @@
 # Using Meld merging tool on Mac
 
 1. [OPTIONAL] Install [XQuartz](http://xquartz.macosforge.org/landing/) 
+ 
+- Install *homebrew* and fix *git*
+````
+ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ $ brew doctor
+ $ brew cask install tcl
+````
 
 2. Install meld with brew
 
