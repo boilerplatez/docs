@@ -52,8 +52,10 @@ Instead try:
     
 Or you can try something like this [Answer](https://stackoverflow.com/a/43503455)
 
+```
    $ brew tap caskroom/cask
    $ brew cask install meld
+```
     
     
 ### Alternative method (by [@yousseb](https://github.com/yousseb))
