@@ -18,6 +18,11 @@
         # Virtual hosts
         Include etc/extra/httpd-vhosts.conf
         ````
+## Linux
+- TBD
+
+## Windows
+- TBD
 
 ## Optional
 - Point Virtual/Local domain to project. [Instructions](http://docs.spamjs.org/boilerplatez/docs/master/markdown/xampp/domain.md)
