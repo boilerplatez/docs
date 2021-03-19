@@ -25,4 +25,4 @@
 - TBD
 
 ## Optional
-- Point Virtual/Local domain to project. [Instructions](http://docs.spamjs.org/boilerplatez/docs/master/markdown/xampp/domain.md)
+- Point Virtual/Local domain to project. [Instructions](domain.md)
